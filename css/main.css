@@ -23,12 +23,10 @@ p {
 }
 
 /*** Button change after mouseover event ***/
-input[type=button].change {
-    color:rgb(241, 235, 241);
-    border: 1px solid rgb(241, 235, 241);
-    background-color: none;
+input[type=button]:hover {
+    border: 2px solid rgb(241, 235, 241);
+    background-color: transparent;
   }
-
 
 .container-wrapper {
     width: 100%;
@@ -66,6 +64,10 @@ input[type=button] {
     color: hsl(31, 77%, 52%);
 }
 
+#sedans input[type=button]:hover {
+    color: rgb(241, 235, 241);
+}
+
 /*** Suv styles ***/
 
 #suvs {
@@ -74,6 +76,10 @@ input[type=button] {
 
 #suvs input[type=button] {
     color: hsl(184, 100%, 22%);
+}
+
+#suvs input[type=button]:hover {
+    color: rgb(241, 235, 241);
 }
 
 /*** Luxury styles ***/
@@ -85,6 +91,11 @@ input[type=button] {
 #luxury input[type=button] {
     color: hsl(179, 100%, 13%)
 }
+
+#luxury input[type=button]:hover {
+    color: rgb(241, 235, 241);
+}
+
 
 
 /*** Footer ***/
