@@ -96,8 +96,6 @@ input[type=button] {
     color: rgb(241, 235, 241);
 }
 
-
-
 /*** Footer ***/
 
 .developer {
@@ -120,8 +118,6 @@ input[type=button] {
     width: 100%;
     background-color:hsl(0, 0%, 95%);
 }
-
-
 
 @media only screen and (min-width: 1300px) {
     /*Desktop styles here**/
